@@ -1,0 +1,110 @@
+h1 {
+	width:600px;
+	height:60px;
+	font-size:50px;
+	font-weight: bold;
+	margin:auto;
+	padding:0px;
+	text-align: center;
+	color:red;
+}
+body{
+	background-image: url(../image/background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#container{
+	margin:auto;
+	margin-top:3%;
+	padding:0px;
+	background-color: #000066;
+	height:800px;
+	width:615px;
+	border-radius: 8% 8% 5% 5%;
+	box-shadow: 10px 10px 10px 10px black;
+	-moz-box-shadow: 10px 10px 10px 10px black;
+  	-webkit-box-shadow: 10px 10px 10px 10px black;
+}
+#time{
+	background-color: #000066;
+	color:#999933;
+	margin:0px;
+	padding:0px;
+	width:615px;
+	height:80px;
+	border-radius: 25% 25% 0 0;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+#time-info{
+	margin:0px;
+	padding:0px;
+	width:200px;
+	height:50px;
+	font-size:50px;
+	color:#999933;
+}
+#puzzle{
+	height:610px;
+	width:615px;
+	margin:0px;
+	padding:0px;
+	background-color: #ffffcc;
+	position: relative;
+}
+
+#start-recover,#change{
+	display: inline-block;
+	height:50px;
+	width:296px;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top:20px;
+	margin-left: 4px;
+	border-radius: 10px;
+}
+.row1 {top: 2;}
+.row2 {top: 154px;}
+.row3 {top: 306px;}
+.row4 {top: 458px;}
+.col1 {left: 2;}
+.col2 {left: 154px;}
+.col3 {left: 306px;}
+.col4 {left: 458px;}
+.tu1,.tu2,.tu3,.tu4,.tu5{
+	height: 150px;
+	width:150px;
+	display: inline-block;
+	border-radius: 5px;
+	position: absolute;
+	border: 3px solid #0066cc;
+	border-radius: 10px;
+	transition: all 0.1s;
+}
+.tu1 {background-image: url(../image/1.png);}
+.tu2 {background-image: url(../image/2.png);}
+.tu3 {background-image: url(../image/3.png);}
+.tu4 {background-image: url(../image/4.png);}
+.tu5 {background-image: url(../image/5.png);}
+#p0 {background-position: 0 0;}
+#p1 {background-position: 33.3% 0;}
+#p2 {background-position: 66.6% 0;}
+#p3 {background-position: 100% 0;}
+#p4 {background-position: 0 33.3%;}
+#p5 {background-position: 33.3% 33.3%;}
+#p6 {background-position: 66.6% 33.3%;}
+#p7 {background-position: 100% 33.3%;}
+#p8 {background-position: 0 66.6%;}
+#p9 {background-position: 33.3% 66.6%;}
+#p10 {background-position: 66.6% 66.6%;}
+#p11 {background-position: 100% 66.6%;}
+#p12 {background-position: 0 100%;}
+#p13 {background-position: 33.3% 100%;}
+#p14 {background-position: 66.6% 100%;}
+#p15 {display: none;}
+.b:hover {
+  -moz-transform: scale(1.05,1.05);
+  -webkit-transform: scale(1.05,1.05);
+  transform: scale(1.05,1.05);
+}
