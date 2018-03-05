@@ -1,0 +1,95 @@
+body{
+	background-image: url(../image/1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+/*整体*/
+div.quan{
+	width: 500px;
+	height: 600px;
+	border:20px #969696 groove;
+	background-color: #CDB38B;
+	box-shadow: 10px 10px 5px black;
+	border-radius: 30px;
+	margin: auto;
+	margin-top:100px;
+}
+/*显示屏*/
+div.pingmu {
+	width: 90%;
+	height: 100px;
+	border-radius: 5px;
+	margin:auto;
+	margin-top:20px;
+	background-color: #CCFFFF;
+	text-align: right;
+	font-family:"黑体";
+	overflow: hidden;
+}
+/*显示屏的结果显示部分*/
+p#result{
+	font-size:50px;
+	margin:0px;
+	padding: 0px;
+	overflow: hidden;
+}
+/*显示屏的算式显示部分*/
+p#shizi{
+	font-size:30px;
+	margin:0px;
+	padding: 0px;
+}
+div#anjian{
+	margin:auto;
+	margin-top:20px;
+	padding: 0px;
+	height: 430px;
+	width:450px;
+}
+
+.first,.second,.third,.forth,.fifth{
+	height:86px;
+	width:450px;
+	margin:auto;
+	padding: 0px;
+}
+/*调节按键的大小及其颜色*/
+#s7,#s8,#s9,#s4,#s5,#s6,#s1,#s2,#s3,#s0,#dian,#tui,#left,#right,#clear,#deng,#jia,#jian,#cheng,#chu{
+	padding: 0px;
+	margin-top:3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	margin-right: 3px;
+	height:80px;
+	width:100px;
+	border-radius: 10px;
+	background-color: #666666;
+	color:white;
+	font-size:50px;
+}
+/*把一些特殊按键颜色区分开*/
+#jia,#jian,#cheng,#chu{
+	background-color: #333666;
+}
+#clear,#tui{
+	background-color: red;
+}
+#deng{
+	background-color:green;
+}
+#anjian button:hover {
+	background-color: white;
+	color:black;
+}
+#s7,#s8,#s9,#s4,#s5,#s6,#s1,#s2,#s3,#s0,#dian,#left,#right button:focus{
+	background-color: #666666;
+}
+#jia,#jian,#cheng,#chu button:focus{
+	background-color: #333666;
+}
+#clear,#tui button:focus{
+	background-color: red;
+}
+#deng button:focus{
+	background-color:green;
+}
