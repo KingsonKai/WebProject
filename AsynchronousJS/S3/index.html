@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>环形求和计算器</title>
+        <meta charset="utf-8">
+        <link rel="icon" sizes="196x196" href="assets/images/favicon.png">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <h1>五指金龙</h1>
+        <p id="PS">
+            PS:指向@+展开后要点击@+按钮后才会执行机器人程序，但是不点@+而直接点ABCDE使用S1的功能则设置为不可再点@+（防止功能紊乱），直到移开再移回重新打开才可以
+        </p>
+        <div id="at-plus-container">
+            <div id="bottom-positioner">
+                <div id="button">
+                    <div class="apb">
+                        <div class="icon-wrap">
+                            <div id="info-bar">
+                                <div class="result"><p></p></div>
+                            </div>
+                            <div id="control-ring-container">
+                                <ul id="control-ring">
+                                    <li title="A" id="A" class="button"><b>A</b><span class="numa"></span></li>
+                                    <li title="B" id="B" class="button"><b>B</b><span class="numb"></span></li>
+                                    <li title="C" id="C" class="button"><b>C</b><span class="numc"></span></li>
+                                    <li title="D" id="D" class="button"><b>D</b><span class="numd"></span></li>
+                                    <li title="E" id="E" class="button"><b>E</b><span class="nume"></span></li>
+                                </ul>
+                            </div>
+                            <div class="icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
