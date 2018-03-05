@@ -1,0 +1,236 @@
+#at-plus-container { /*调节@+*/
+	margin: 0 auto;
+	text-align:center;
+}
+*{ /*设置全部字体的以及加粗*/
+    font-family:Arial;
+    font-weight:bold;
+}
+li { /*把无序点去掉*/
+	list-style-type: none;
+}
+#bottom-positioner {/*设置整个按钮在网页中的位置*/
+	position: fixed;
+	left: 50%;
+	width: 0px;
+	height: 0px;
+	bottom: 20%;
+}
+.apb { /*设置@+不悬停鼠标时的位置状态*/
+	-webkit-transition: all 0.3s ease-in-out 0.2s;
+    -moz-transition: all 0.3s ease-in-out 0.2s;
+    -o-transition: all 0.3s ease-in-out 0.2s;
+    transition: all 0.3s ease-in-out 0.2s;
+	position: absolute;
+	border-radius: 50%;
+	left: 50%;
+    bottom: 50%;
+	width: 25px;
+	height: 25px;
+    margin-left: -12px;
+    margin-bottom: -12px;
+	background: url("assets/images/atplus_white.png") no-repeat center;
+    background-size:80%;
+	background-color: darkgrey;
+	text-align: center;
+}
+
+
+#button:hover .apb { /*设置@+悬停鼠标时的位置状态*/
+	-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+	position: absolute;
+	border-radius: 50%;
+	left: 50%;
+	width: 50px;
+	height: 50px;
+	bottom: 50%;
+    margin-left: -18px;
+    margin-bottom: -25px;
+	background: url("assets/images/atplus_green.png") no-repeat center;
+    background-size:80%;
+	background-color: rgba(48, 63, 159, 1);
+	text-align: center;
+}
+#info-bar { /*设置鼠标悬停状态前的大显示板（透明化）*/
+	-webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+	position: absolute;
+	border-radius: 50%;
+	background: #7E7E7E;
+	left: 50%;
+	top: 50%;
+	height: 20px;
+	width: 20px;
+	overflow: hidden;
+    opacity: 0;
+}
+#button:hover #info-bar { /*设置鼠标悬停状态下弹出后的大显示板*/
+	top: -100px;
+	height: 130px;
+	width: 130px;
+	margin-left: -65px;
+	margin-top: -65px;
+    opacity: 1;
+}
+#control-ring-container { /*控制悬停鼠标前按钮栏框架的整体位置*/
+	-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 0px;
+}
+#button:hover #control-ring-container { /*控制悬停鼠标后选项栏框架的位置*/
+	position: absolute;
+	top: -50px;
+	left: -100px;
+	width: 130px;
+	height: 150px;
+}
+.page { /*设置大显示板中的项*/
+	font-weight: bold;
+	color: #fff;
+}
+.mine { /*设置大显示板中的项*/
+	font-weight: bold;
+	color: #079E6E;
+	font-size: 13pt;
+}
+.user { /*设置大显示板中的项*/
+	position: absolute;
+	left: 40px;
+	top: 10px;
+	font-size: 12pt;
+}
+.comment { /*设置大显示板中的项*/
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	font-size: 23pt;
+}
+.posted { /*设置大显示板中的项*/
+	top: 80px;
+	left: 20px;
+	position: absolute;
+}
+.like { /*设置大显示板中的项*/
+	left: 70px;
+	top: 80px;
+	position: absolute;
+}
+
+.user img { /*调节鼠标悬停后的user数字的位置*/
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.comment img { /*调节鼠标悬停后的评论数字的位置*/
+	width: 25px;
+	margin-right: 10px;
+	vertical-align: text-bottom;
+}
+
+.mine img { /*调节鼠标悬停后的被点赞及被评论数字的位置*/
+	margin-right: 7px;
+	vertical-align: top;
+}
+
+.button { /*把所有小按钮集中在一个位置并透明化*/
+	-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+	top: -16px;
+	left: -16px;
+	opacity: 0;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	position: absolute;
+	background: #686868;
+}
+.button img { /*鼠标悬停后所有小按钮显示*/
+	-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+	opacity: 0;
+	height: 15px;
+	width: 15px;
+	margin-left: -8px;
+	margin-top: -8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+}
+#button:hover img { /*鼠标悬停后所有项显示出来*/
+	opacity: 1;
+}
+.unread { /*设置未读信息数字*/
+	-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+	opacity: 0;
+	background: red;
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+	right: -8px;
+	top: -4px;
+	line-height: 20px;
+	text-align: center;
+	height: 20px;
+	width: 20px;
+	font-size: 9pt;
+	color: #fff;
+}
+#button:hover .unread { /*设置鼠标悬停后的未读信息数字*/
+	opacity: 1;
+	background: red;
+	display: block;
+	position: absolute;
+	border-radius: 50%;
+	right: -10px;
+	top: -6px;
+	line-height: 20px;
+	text-align: center;
+	height: 20px;
+    width:20px;
+	font-size: 9pt;
+	color: #fff;
+}
+#button:hover .sign { /*显示悬停鼠标后的登录/注册按钮*/
+	opacity: 1;
+	top: 90px;
+	left: 100px;
+}
+#button:hover .setting { /*显示悬停鼠标后的设置按钮*/
+	opacity: 1;
+	top: 95px;
+	left: 60px;
+}
+#button:hover .message { /*显示悬停鼠标后的消息按钮*/
+	opacity: 1;
+	top: 75px;
+	left: 25px;
+}
+#button:hover .history { /*显示悬停鼠标后的历史记录按钮*/
+	opacity: 1;
+	top: 36px;
+	left: 12px;
+}
+#button:hover .mask { /*显示悬停鼠标后的蒙版按钮*/
+	opacity: 1;
+	top: 0px;
+	left: 20px;
+}
