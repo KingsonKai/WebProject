@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>用户注册</title>
+	<link rel="stylesheet" type="text/css" href="hw9.css" />
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="hw9.js"></script>
+</head>
+<body>
+    <h1>用户注册</h1>
+    <form name="form" method="post" action="" onsubmit="return handon();">
+        <div id='top'>
+        用户名:<input type="text" name="username" id="name">
+        </div>
+        <div id='name_mess' class="message"></div>
+        <br />
+        学 号 :<input type="text" name="userid" id="id">
+        <div id='id_mess' class="message"></div>
+        <br />
+        电 话 :<input type="text" name="usertel" id="tel">
+        <div id='tel_mess' class="message"></div>
+        <br />
+        邮 箱 :<input type="email" name="usermail" id="mail">
+        <div id='mail_mess' class="message"></div>
+        <br />
+        <input type="reset" value="重置" class="button">
+        <input type="submit" value="提交" class="button">
+    </form>
+    <div id='tips'>
+    <ul>PS:
+        <li>用户名6~18位英文字母、数字或下划线，必须以英文字母开头</li>
+        <li>学号8位数字，不能以0开头</li>
+        <li>电话11位数字，不能以0开头</li>
+        <li>邮箱格式为‘数字或字母@字母.字母’</li>
+        <li>用户名、学号、电话、邮箱均不可重复注册</li>
+    </ul>
+    </div>
+</body>
+</html>
