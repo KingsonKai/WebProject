@@ -1,0 +1,88 @@
+div[id= "title"]{
+	color:#A4A400;
+	background-color:#F0F0F0;
+	font-size:22pt;
+	font-family:Century Gothic, Futura, Verdana,sans-serif;
+	text-decoration:underline;
+	font-wegiht:bold;
+	text-align:center;
+}
+body{
+	background-image:url("http://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+	
+}
+div[id= "title_1"]{
+	color:#A4A400;
+	background-color:#F0F0F0;
+	font-size:18pt;
+	font-family:Century Gothic, Futura, Verdana,sans-serif;
+	text-decoration:underline;
+	font-wegiht:normal;
+	text-align:left;
+}
+div[id= "title_2"]{
+	color:#A4A400;
+	background-color:#F0F0F0;
+	font-size:18pt;
+	font-family:Century Gothic, Futura, Verdana,sans-serif;
+	text-decoration:underline;
+	font-wegiht:normal;
+	text-align:left;
+}
+div[id= "title_3"]{
+	color:#A4A400;
+	background-color:#F0F0F0;
+	font-size:18pt;
+	font-family:Century Gothic, Futura, Verdana,sans-serif;
+	text-decoration:underline;
+	font-wegiht:normal;
+	text-align:left;
+}
+div[id= "title_4"]{
+	color:#A4A400;
+	background-color:#F0F0F0;
+	font-size:18pt;
+	font-family:Century Gothic, Futura, Verdana,sans-serif;
+	text-decoration:underline;
+	font-wegiht:normal;
+	text-align:left;
+}
+div[id= "pd1"]{
+	
+	color:#404040;
+	font-size:11pt;
+	font-family:Georgia, Garamond,serif;
+}
+div[id= "pd2"]{
+	
+	color:#404040;
+	font-size:11pt;
+	font-family:Georgia, Garamond,serif;
+}
+div[id= "pd3"]{
+	
+	color:#404040;
+	font-size:11pt;
+	font-family:Georgia, Garamond,serif;
+}
+div[id= "link1"]{
+	color:#A4A400;
+	text-decoration: underline;
+}
+div[id= "link2"]{
+	color:#A4A400;
+	text-decoration: underline;
+}
+div[id= "return"]{
+	color:#A4A400;
+	text-decoration: underline;
+	font-size:22pt;
+}
+div[id= "by1"]{
+	background-color:#FFFFC8;
+	font-style:italic;
+}
+div[id= "by2"]{
+	background-color:#FFFFC8;
+	font-style:italic;
+}
