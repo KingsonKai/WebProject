@@ -1,0 +1,49 @@
+*{
+	font-family: Microsoft YaHei;
+}
+body{
+	background-image: url("../images/background.jpg");
+	background-size:100%;
+}
+#container{
+	padding: 5px;
+	position: relative;
+	width: 420px;
+	margin:auto;
+	top:160px;
+}
+#regis,#log,#reset{
+	width:60px;
+	height:45px;
+	font-size: 20px;
+	border-radius: 20%;
+	box-shadow: 2px 2px 2px grey;
+	color:white;
+	background-color: green;
+}
+table{
+	border-collapse:separate;
+	border-spacing:8px;
+	margin-left: 60px;
+	margin-bottom: 10px;
+}
+#buttons{
+	margin-left: 100px;
+	margin-bottom: 10px;
+}
+#log,#reset{
+	margin-left: 6px;
+}
+
+#header{
+	margin-left:160px;
+	color:green;
+}
+#errordisplay{
+	border: none;
+	color: red;
+	height:5px;
+	font-weight: bold;
+	margin-left: 70px;
+	margin-bottom: 10px;
+}

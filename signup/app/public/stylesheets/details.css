@@ -1,0 +1,17 @@
+*{
+	font-family: Microsoft YaHei;
+}
+body{
+	background-image: url("../images/background.jpg");
+	background-size:100%;
+}
+h1{
+	color:green;
+}
+#container{
+	padding: 5px;
+	position: relative;
+	width: 420px;
+	margin:auto;
+	top:160px;
+}
